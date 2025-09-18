@@ -35,7 +35,7 @@ The scripts require an API key for the Gemini AI model. You need to create a `.e
 # .env
 
 # Your Google Gemini API Key
-GEMINI_API_KEY_1="YOUR_API_KEY_HERE"
+GEMINI_API_KEY="YOUR_API_KEY_HERE"
 
 # The model to use for generating guesses
 GEMINI_MODEL_NAME="gemini-2.5-pro"
