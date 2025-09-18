@@ -110,7 +110,7 @@ def guess_word(word_size: int = None, correct_positions: dict = None,
         The guessed word as a string, or an error message.
     """
     load_dotenv()
-    api_key = os.getenv("GEMINI_API_KEY_1")
+    api_key = os.getenv("GEMINI_API_KEY")
     model = os.getenv("GEMINI_MODEL_NAME", "gemini-2.5-flash")
     if not api_key:
         return "Error: GEMINI_API_KEY not found in .env file."
